@@ -269,7 +269,7 @@
             this.cBox1.Items.AddRange(new object[] {
             "Active",
             "InActive"});
-            this.cBox1.Location = new System.Drawing.Point(636, 146);
+            this.cBox1.Location = new System.Drawing.Point(636, 150);
             this.cBox1.Name = "cBox1";
             this.cBox1.Size = new System.Drawing.Size(209, 28);
             this.cBox1.TabIndex = 13;

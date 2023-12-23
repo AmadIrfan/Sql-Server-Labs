@@ -113,7 +113,7 @@
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(59, 8);
+            this.panel2.Location = new System.Drawing.Point(56, 8);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(130, 122);
             this.panel2.TabIndex = 0;
@@ -131,7 +131,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.16602F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(255, 549);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(248, 549);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // tableLayoutPanel3
@@ -146,7 +146,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.78125F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 74.21875F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(249, 543);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(242, 543);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // panel3
@@ -164,7 +164,7 @@
             this.panel3.Controls.Add(this.button1);
             this.panel3.Location = new System.Drawing.Point(3, 142);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(243, 398);
+            this.panel3.Size = new System.Drawing.Size(236, 398);
             this.panel3.TabIndex = 1;
             // 
             // btnExit
