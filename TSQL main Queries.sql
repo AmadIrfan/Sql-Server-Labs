@@ -1,34 +1,33 @@
-/*CREATE DATABASE TEMPFINALPRECTICE;
+CREATE DATABASE TEMPFINALPRECTICE;
 
 CReate TABLE EMPLOYEE(
  id int not null
 )
 Alter table EMPLOYEE
-*/
---add CONSTRAINT CHk_EMPLOYEE_id
---check(id >2)
 
---add CONSTRAINT PK_EMPLOYEE_id
---Primary key (id);
+add CONSTRAINT CHk_EMPLOYEE_id
+check(id >2)
 
-/*
+add CONSTRAINT PK_EMPLOYEE_id
+Primary key (id);
+
+
 SELECT  LastName,Count(LastName)
 FROM Employees
---Where city ='London'
+Where city ='London'
 GROUP BY LastName
 having Count(LastName) >=1
 Order by LastName DESC
-*/
 --DESC
 
 
 -- OFFSET AND FETCH WORK WITH ONLY ORDER BY
-/*
+
 SELECT *
 FROM Employees
 Order by LastName
 OFFSET 2 ROWS FETCH NEXT 3 ROWs ONLY;
-*/
+
 -- NOT WORK AS ALONE
 /* SELECT *
 FROM Employees
